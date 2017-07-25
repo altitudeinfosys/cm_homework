@@ -27,9 +27,7 @@ namespace CM_HomeWork
             //default constructor that uses default combiniation 
             //FizzBuzz fizzBuzz = new FizzBuzz(1,100, null);
             FizzBuzz fizzBuzz = new FizzBuzz(1,100, combinations);
-            string actual = fizzBuzz.CheckFizzBuzz(35);
 
-            Console.WriteLine(actual);
             //here we can choose - whether we want to output data to a text file, or to the console
 
             // through dependency injection - we can designate output to be console for debugging purposes, or text file 
